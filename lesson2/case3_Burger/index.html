@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>Собери свой бургер
+    <div class="main">
+        Выберите размер
+        <div class="burgerSize">
+            <label><input type="radio" name="size" id="small" checked="checked" data-price="50" data-kkal="20">Маленький (50 рублей, 20 калорий)<label>
+            <label><input type="radio" name="size" id="big" data-price="100" data-kkal="40">Большой (100 рублей, 40 калорий)</label>
+        </div>
+        Выберите доп.начинку
+        <div class="burgerFilling">
+            <label><input type="checkbox" id="cheese" data-price="10" data-kkal="20">С сыром (+10 рублей, +20 калорий)</label>
+            <label><input type="checkbox" id="salad" data-price="20" data-kkal="5">С салатом (+20 рублей, +5 калорий)</label>
+            <label><input type="checkbox" id="potato" data-price="15" data-kkal="10">С картофелем (+15 рублей, +10 калорий)</label>
+        </div>
+        Выберите доп.опции
+        <div class="burgerOptions">
+            <label><input type="checkbox" id="spice" data-price="15" data-kkal="0">Посыпать приправой (+15 рублей, +0 калорий)</label>
+            <label><input type="checkbox" id="mayo" data-price="20" data-kkal="5">Полить майонезом (+20 рублей, +5 калорий)</label>
+        </div>
+        <hr>
+        <button class="btn-result">Собрать бургер</button>
+        <div class="result"></div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
