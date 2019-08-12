@@ -1,0 +1,16 @@
+.main{
+    width: 20%;
+}
+
+div{
+    border:1px solid grey;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+}
+label{
+    display:block;
+}
+.result{
+    border:none;
+}
